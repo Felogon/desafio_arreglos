@@ -31,11 +31,10 @@ nav div{
 
 .propiedades {
     padding: 0px 5%;
-    display: grid;
-    grid-gap: 0px;
-    min-height: 100vh;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px
 }
-
 .propiedad{ 
     margin: auto;
     background: rgba(255, 255, 255, 0.068);
@@ -53,5 +52,3 @@ nav div{
 .propiedad section p{
     margin: 0px
 }
-
-
